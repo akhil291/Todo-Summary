@@ -1,0 +1,55 @@
+.todo-form {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.todo-input {
+    flex-grow: 1;
+    padding: 12px 15px;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #4A4A4A;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+}
+
+.todo-input::placeholder {
+    color: #A0A0A0;
+    font-weight: 300;
+}
+
+.todo-input:focus {
+    border-color: #6A057F;
+    box-shadow: 0 0 0 3px rgba(106, 5, 127, 0.2);
+}
+
+.add-button {
+    padding: 12px 25px;
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 191, 255, 0.3);
+}
+
+.add-button:hover {
+    background-color: #009ACD;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 191, 255, 0.4);
+}
+
+.add-button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 10px rgba(0, 191, 255, 0.2);
+}

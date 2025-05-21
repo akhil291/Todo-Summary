@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env
+.DS_Store
+
+# React (client) specific
+client/build/
+client/.env
+client/node_modules/
+
+# Backend (server) specific
+server/node_modules/
+server/.env
