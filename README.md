@@ -1,6 +1,10 @@
 Todo Summary Assistant :
 A full-stack application that allows users to manage their personal to-do items, summarize all pending tasks using an LLM, and send the generated summary to a Slack channel.
 
+Live Link : https://todo-summary-frontend.onrender.com
+
+Demo : https://drive.google.com/file/d/1MyaFa7kRbko39sOctM03vblwkqLR35Rx/view?usp=sharing
+
 Features :
 ----------
 1)Create, Edit, Delete To-Dos: Full CRUD operations for personal to-do items.
